@@ -28,7 +28,7 @@ export default function Home() {
             Wedding Photographer
           </span>
           <h1 data-aos="fade-up" data-aos-duration={1200} data-aos-delay={300}>
-            Brayden Javion
+            Suvin Chandula
           </h1>
           <p data-aos="fade-up" data-aos-duration={1200} data-aos-delay={400}>
             It is a long established fact that a reader will be distracted by
@@ -115,7 +115,7 @@ export default function Home() {
       </div>
     </div>
     <div className="text-center mt-20">
-      <a href="project.html" className="btn style3">
+      <a href="Projects" className="btn style3">
         SEE ALL PROJECTS
       </a>
     </div>
@@ -136,7 +136,7 @@ export default function Home() {
               incidunt sequi iure tempora accusamus aliquid natus.
             </p>
           </div>
-          <a href="about.html" className="btn style1">
+          <a href="About" className="btn style1">
             WORK WITH ME
           </a>
         </div>

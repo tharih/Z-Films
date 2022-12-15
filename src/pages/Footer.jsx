@@ -131,12 +131,12 @@ export default function Footer() {
                 <ul className="contact-info list-style">
                   <li>
                     <i className="ri-map-pin-fill" />
-                    <p>5961 De Santa Ave, Huntington Park, CA 90255, USA</p>
+                    <p>98/5 Artigala Mawatha, Piliyandala 10300</p>
                   </li>
                   <li>
                     <i className="ri-phone-fill" />
-                    <a href="tel:13454567877">+1-3454-5678-77</a>
-                    <a href="tel:16657234112">+1-6657-2341-12</a>
+                    <a href="tel:0779597006">+94 (77) 959 7006</a>
+                    {/* <a href="tel:16657234112">+1-6657-2341-12</a> */}
                   </li>
                   <li>
                     <i className="ri-mail-open-fill" />
@@ -145,17 +145,17 @@ export default function Footer() {
                         className="__cf_email__"
                         data-cfemail="3058555c5c5f70405f46591e535f5d"
                       >
-                        [email&nbsp;protected]
+                        suvinjavax@gmail.com
                       </span>
                     </a>
-                    <a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#afdcdadfdfc0dddbefdfc0d9c681ccc0c2">
+                    {/* <a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#afdcdadfdfc0dddbefdfc0d9c681ccc0c2">
                       <span
                         className="__cf_email__"
                         data-cfemail="d3a0a6a3a3bca1a793a3bca5bafdb0bcbe"
                       >
                         [email&nbsp;protected]
                       </span>
-                    </a>
+                    </a> */}
                   </li>
                 </ul>
               </div>

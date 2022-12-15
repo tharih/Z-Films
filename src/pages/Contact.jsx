@@ -48,14 +48,14 @@ export default function Contact() {
                   <li>
                     <i className="ri-map-pin-fill" />
                     <p>
-                      5961 Santa Fe Ave,Huntington Park,
-                      <br /> CA 90255, USA
+                    98/5 Artigala Mawatha, 
+                      <br /> Piliyandala 10300
                     </p>
                   </li>
                   <li>
                     <i className="ri-phone-fill" />
-                    <a href="tel:13454567877">+1-3454-5678-77</a>
-                    <a href="tel:16657234112">+1-6657-2341-12</a>
+                    <a href="tel:+94 (77) 959 7006">+94 (77) 959 7006</a>
+                    {/* <a href="tel:16657234112">+1-6657-2341-12</a> */}
                   </li>
                   <li>
                     <i className="ri-mail-open-fill" />
@@ -64,17 +64,17 @@ export default function Contact() {
                         className="__cf_email__"
                         data-cfemail="f9919c959596b989968f90d79a9694"
                       >
-                        [email&nbsp;protected]
+                       suvinjavax@gmail.com
                       </span>
                     </a>
-                    <a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#05767075756a777145756a736c2b666a68">
+                    {/* <a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#05767075756a777145756a736c2b666a68">
                       <span
                         className="__cf_email__"
                         data-cfemail="ef9c9a9f9f809d9baf9f809986c18c8082"
                       >
                         [email&nbsp;protected]
                       </span>
-                    </a>
+                    </a> */}
                   </li>
                 </ul>
                 <div className="social-link">
