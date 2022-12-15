@@ -35,7 +35,7 @@ export default function Projects() {
       <div className="row align-items-center">
         <div className="col-xl-3 col-lg-6 col-md-6 order-xl-1 order-lg-1 order-md-1">
           <div className="project-card">
-            <img src="assets/img/project/project-1.jpg" alt="Image" />
+            <img src="assets/img/new/06.jpg" alt="Image" />
             <div className="project-info">
               <h3>
                 <a href="project-details.html">Pre Wedding</a>
@@ -53,7 +53,7 @@ export default function Projects() {
         </div>
         <div className="col-xl-3 col-lg-6 col-md-6 order-xl-2 order-lg-2 order-md-2">
           <div className="project-card">
-            <img src="assets/img/project/project-3.jpg" alt="Image" />
+            <img src="assets/img/new/01.jpg" alt="Image" />
             <div className="project-info">
               <h3>
                 <a href="project-details.html">Wedding</a>

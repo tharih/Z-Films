@@ -1,4 +1,5 @@
 import React from "react";
+// import OwlCarousel from 'react-owl-carousel'
 
 export default function About() {
   return (
@@ -43,7 +44,7 @@ export default function About() {
                       alt="Image"
                     />
                   </div>
-                  <img src="assets/img/about/about-img-6.png" alt="Image" />
+                  <img src="assets/img/new/my 01.jpg" alt="Image" />
                 </div>
               </div>
               <div className="col-lg-6">
@@ -202,7 +203,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="testimonial-slider-one style1 owl-carousel">
+            <div className="testimonial-slider-one style1 ">
               <div className="testimonial-card style1">
                 <div className="row gx-5">
                   <div className="col-xl-6 col-lg-6">

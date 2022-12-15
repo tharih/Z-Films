@@ -67,9 +67,10 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="project-slider-one owl-carousel">
+    <div className="project-slider-one ">
+    {/* owl-carousel */}
       <div className="project-card style2">
-        <img src="assets/img/project/project-7.jpg" alt="Image" />
+        <img src="assets/img/new/03.jpg" alt="Image" />
         <div className="project-info">
           <h3>
             <a href="project-details.html">Amelia &amp; Oliver</a>
@@ -80,7 +81,7 @@ export default function Home() {
         </div>
       </div>
       <div className="project-card style2">
-        <img src="assets/img/project/project-8.jpg" alt="Image" />
+        <img src="assets/img/new/10.jpg" alt="Image" />
         <div className="project-info">
           <h3>
             <a href="project-details.html">Dsuza &amp; Alice</a>
@@ -91,7 +92,7 @@ export default function Home() {
         </div>
       </div>
       <div className="project-card style2">
-        <img src="assets/img/project/project-9.jpg" alt="Image" />
+        <img src="assets/img/new/11.jpg" alt="Image" />
         <div className="project-info">
           <h3>
             <a href="project-details.html">Jhon &amp; Malinda</a>
@@ -102,7 +103,7 @@ export default function Home() {
         </div>
       </div>
       <div className="project-card style2">
-        <img src="assets/img/project/project-10.jpg" alt="Image" />
+        <img src="assets/img/new/06.jpg" alt="Image" />
         <div className="project-info">
           <h3>
             <a href="project-details.html">Roman &amp; Alisa</a>
@@ -142,7 +143,7 @@ export default function Home() {
       </div>
       <div className="col-xl-5 col-lg-6 order-xl-2 order-lg-2 order-md-1 order-1">
         <div className="about-img-wrap">
-          <img src="assets/img/about/about-img-2.jpg" alt="Image" />
+          <img src="assets/img/new/my 02.jpg" alt="Image" />
         </div>
       </div>
     </div>
@@ -345,7 +346,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="testimonial-slider-three owl-carousel" data-slider-id={1}>
+      <div className="testimonial-slider-three " data-slider-id={1}>
+        {/* owl-carousel */}
         <div className="testimonial-card style2" data-dot="<button>01</button>">
           <div className="row gx-5 align-items-end">
             <div className="col-lg-6 order-lg-1 order-md-2 order-2">

@@ -2544,7 +2544,7 @@ select {
     Hero  Section CSS
 -------------------------------*/
 .hero-bg-1 {
-  background-image: url(../img/hero/hero-bg-1.jpg);
+  background-image: url(../img/new/cover.jpg);
 }
 
 .hero-bg-2 {
@@ -3470,7 +3470,7 @@ select {
 }
 
 .cta-wrap.style2 {
-  background-image: url(../img/cta-bg-2.jpg);
+  background-image: url(../img/new/cta-bg-1.jpg);
 }
 
 .cta-wrap.style2:before {

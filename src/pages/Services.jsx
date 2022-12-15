@@ -36,7 +36,7 @@ export default function Services() {
             <div className="col-xl-3 col-lg-6 col-md-6">
               <div className="service-card style1">
                 <div className="service-img">
-                  <img src="assets/img/service/service-1.jpg" alt="Image" />
+                  <img src="assets/img/new/08.jpg" alt="Image" />
                 </div>
                 <div className="service-info">
                   <h3>
@@ -81,7 +81,7 @@ export default function Services() {
             <div className="col-xl-3 col-lg-6 col-md-6">
               <div className="service-card style2">
                 <div className="service-img">
-                  <img src="assets/img/service/service-4.jpg" alt="Image" />
+                  <img src="assets/img/new/11.jpg" alt="Image" />
                 </div>
                 <div className="service-info">
                   <h3>
@@ -141,7 +141,7 @@ export default function Services() {
             <div className="col-xl-3 col-lg-6 col-md-6">
               <div className="service-card style2">
                 <div className="service-img">
-                  <img src="assets/img/service/service-8.jpg" alt="Image" />
+                  <img src="assets/img/new/03.jpg" alt="Image" />
                 </div>
                 <div className="service-info">
                   <h3>
