@@ -438,7 +438,7 @@ export default function Home() {
       </div>
     </div>
   </section>
-  <section className="contact-wrap style2 bg-clay ptb-100">
+  {/* <section className="contact-wrap style2 bg-clay ptb-100">
     <div className="container">
       <img
         src="assets/img/contact/contact-img-1.jpg"
@@ -531,8 +531,8 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </section>
-  <section className="blog-wrap pt-100 pb-75 bg-shark">
+  </section> */}
+  {/* <section className="blog-wrap pt-100 pb-75 bg-shark">
     <div className="container">
       <div className="row">
         <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
@@ -621,7 +621,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
   <div className="instagram-wrap">
     <div className="instagram-slider owl-carousel">
       <a

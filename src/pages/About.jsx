@@ -44,7 +44,7 @@ export default function About() {
                       alt="Image"
                     />
                   </div>
-                  <img src="assets/img/new/my 01.jpg" alt="Image" />
+                  <img src="assets/img/new/my 01.png" alt="Image" />
                 </div>
               </div>
               <div className="col-lg-6">
