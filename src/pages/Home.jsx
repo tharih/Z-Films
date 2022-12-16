@@ -1,6 +1,16 @@
 import React from 'react'
+import OwlCarousel from 'react-owl-carousel2';
+
+
 
 export default function Home() {
+
+  const options = {
+    items: 1,
+    nav: true,
+    rewind: true,
+    autoplay: true
+};
   return (
    <div>
     <section className="hero-wrap style2 hero-bg-1 bg-f">
@@ -67,9 +77,9 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="project-slider-one ">
-    {/* owl-carousel */}
-      <div className="project-card style2">
+
+    <OwlCarousel className="project-slider-one owl-carousel">
+    <div className="project-card style2">
         <img src="assets/img/new/03.jpg" alt="Image" />
         <div className="project-info">
           <h3>
@@ -113,7 +123,8 @@ export default function Home() {
           </a>
         </div>
       </div>
-    </div>
+      
+</OwlCarousel>
     <div className="text-center mt-20">
       <a href="Projects" className="btn style3">
         SEE ALL PROJECTS
@@ -121,6 +132,8 @@ export default function Home() {
     </div>
   </div>
 </section>
+
+    
 
 <section className="about-wrap style2 bg-clay">
   <div className="about-img-shape bg-f"></div>
@@ -150,7 +163,7 @@ export default function Home() {
   </div>
 </section>
 
-<>
+
   <section className="partner-wrap pt-100 pb-75 bg-shark">
     <div className="container">
       <div className="row">
@@ -330,9 +343,9 @@ export default function Home() {
       </div>
     </div>
   </section>
-</>
-<>
-  <section className="testimonial-wrap ptb-100 bg-shark">
+
+
+  <section   className="testimonial-wrap ptb-100 bg-shark">
     <div className="container">
       <div className="row">
         <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
@@ -346,9 +359,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="testimonial-slider-three " data-slider-id={1}>
-        {/* owl-carousel */}
-        <div className="testimonial-card style2" data-dot="<button>01</button>">
+      <div className="testimonial-slider-three " >
+      {/* owl-carousel */}
+
+      <div className="testimonial-card style2" data-dot="<button>01</button>">
           <div className="row gx-5 align-items-end">
             <div className="col-lg-6 order-lg-1 order-md-2 order-2">
               <p className="client-quote">
@@ -435,9 +449,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+        
+    </div>
     </div>
   </section>
+      
+      
+        {/*  */}
+        
+      
   {/* <section className="contact-wrap style2 bg-clay ptb-100">
     <div className="container">
       <img
@@ -747,7 +767,7 @@ export default function Home() {
       </a>
     </div>
   </div>
-</>
+
 
    </div>
   )

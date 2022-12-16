@@ -121,7 +121,7 @@ export default function About() {
                 data-aos-duration={1200}
                 data-aos-delay={300}
               >
-                <div className="feature-card active style2">
+                <div className="feature-card  style2">
                   <div className="feature-icon">
                     <img src="assets/img/about/icon-2.svg" alt="Image" />
                   </div>

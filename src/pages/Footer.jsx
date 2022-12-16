@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -58,34 +59,34 @@ export default function Footer() {
                 <h3 className="footer-widget-title">Quick Links</h3>
                 <ul className="footer-menu list-style">
                   <li>
-                    <a href="index.html" target="_blank">
+                    <Link to="Home" target="_blank">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="about.html" target="_blank">
+                    <Link to="About" target="_blank">
                       About Us
-                    </a>
+                    </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="blog-left-sidebar.html" target="_blank">
                       News &amp; Blog
                     </a>
-                  </li>
+                  </li> */}
                   <li>
-                    <a href="service-one.html" target="_blank">
+                    <Link to="Services" target="_blank">
                       Our Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="project.html" target="_blank">
+                    <Link to="Projects" target="_blank">
                       Our Projects
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="contact.html" target="_blank">
+                    <Link to="Contact" target="_blank">
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -99,28 +100,28 @@ export default function Footer() {
                     data-fancybox="gallery"
                     data-caption="Instagram Gallery"
                   >
-                    <img src="assets/img/instagram/insta-1.jpg" alt="Image" />
+                    <img src="assets/img/new/07.jpg" alt="Image" />
                   </a>
                   <a
                     href="assets/img/instagram/insta-2.jpg"
                     data-fancybox="gallery"
                     data-caption="Instagram Gallery"
                   >
-                    <img src="assets/img/instagram/insta-2.jpg" alt="Image" />
+                    <img src="assets/img/new/08.jpg" alt="Image" />
                   </a>
                   <a
                     href="assets/img/instagram/insta-3.jpg"
                     data-fancybox="gallery"
                     data-caption="Instagram Gallery"
                   >
-                    <img src="assets/img/instagram/insta-3.jpg" alt="Image" />
+                    <img src="assets/img/new/01.jpg" alt="Image" />
                   </a>
                   <a
                     href="assets/img/instagram/insta-4.jpg"
                     data-fancybox="gallery"
                     data-caption="Instagram Gallery"
                   >
-                    <img src="assets/img/instagram/insta-4.jpg" alt="Image" />
+                    <img src="assets/img/new/10.jpg" alt="Image" />
                   </a>
                 </div>
               </div>

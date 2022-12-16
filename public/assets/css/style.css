@@ -2544,7 +2544,7 @@ select {
     Hero  Section CSS
 -------------------------------*/
 .hero-bg-1 {
-  background-image: url(../img/new/BG-1.jpg);
+  background-image: url(../img/new/BG-3.jpg);
 }
 
 .hero-bg-2 {
@@ -3550,6 +3550,7 @@ select {
   margin-bottom: 25px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  margin-right: 25px;
 }
 
 .project-card img {
