@@ -38,7 +38,7 @@ export default function Projects() {
             <img src="assets/img/new/06.jpg" alt="Image" />
             <div className="project-info">
               <h3>
-                <a href="project-details.html">Pre Wedding</a>
+                <a href="ProjectDetails">Pre Wedding</a>
               </h3>
             </div>
           </div>

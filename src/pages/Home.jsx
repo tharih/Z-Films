@@ -46,7 +46,7 @@ export default function Home() {
             the reale he point of using Lorem Ipsum is that it has a
             more-or-less normal valid equity.
           </p>
-          <Link to="Project"
+          <Link to="Projects"
             className="btn style1"
             style={{color: "white"}}
             data-aos="fade-up"
@@ -237,7 +237,7 @@ export default function Home() {
                 adipisci elitsus pendisse varius.
               </p>
             </div>
-            <Link to="contact.html" className="btn style1" style={{color: "white"}}>
+            <Link to="Contact" className="btn style1" style={{color: "white"}}>
               CONTACT ME
             </Link>
           </div>

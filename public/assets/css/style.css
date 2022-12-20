@@ -3555,7 +3555,11 @@ select {
   margin-bottom: 25px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  margin-right: 22px;
 }
+
+
+
 
 .project-card img {
   border-radius: 5px;

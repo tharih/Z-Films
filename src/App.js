@@ -10,6 +10,7 @@ import Team from './pages/Team';
 import Price from './pages/Price';
 import Testimonials from './pages/Testimonials';
 import Contact from './pages/Contact';
+import ProjectDetails from './pages/ProjectDetails';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/Price" exact element={<Price />} />
           <Route path="/Testimonials" exact element={<Testimonials />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path='/ProjectDetails' element={<ProjectDetails />} />
         </Routes>
         <Footer />
       </Router>
