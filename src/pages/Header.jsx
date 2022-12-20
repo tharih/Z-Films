@@ -19,9 +19,9 @@ export default function Header() {
 
   return (
     <div>
-      <div className="loader js-preloader">
+      {/* <div className="loader js-preloader">
         <img src="assets/img/preloader.gif" alt="Image" />
-      </div>
+      </div> */}
 
       {/* <div className="switch-theme-mode">
         <label id="switch" className="switch">
@@ -44,71 +44,71 @@ export default function Header() {
                 id="navbarSupportedContent"
               >
                 <div className="menu-close d-lg-none">
-                  <a href="">
+                  <Link to="">
                     {" "}
                     <i className="ri-close-line"></i>
-                  </a>
+                  </Link>
                 </div>
                 <ul className="navbar-nav mx-auto">
                   <li className="nav-item">
-                    <a href="Home" className="nav-link active">
+                    <Link to="Home" className="nav-link active">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="About" className="nav-link">
+                    <Link to="About" className="nav-link">
                       About Us
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href=" Services" className="nav-link">
+                    <Link to=" Services" className="nav-link">
                       Services
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a href="Projects" className="nav-link">
+                    <Link to="Projects" className="nav-link">
                       Projects
-                    </a>
+                    </Link>
                   </li>
 
                   <li className="nav-item">
-                    <a href="#" className="nav-link">
+                    <Link to="#" className="nav-link">
                       Pages
                       <i className="ri-arrow-down-s-line"></i>
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <a href="Team" className="nav-link">
+                        <Link to="Team" className="nav-link">
                           Our Team
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
-                        <a href="Price" className="nav-link">
+                        <Link to="Price" className="nav-link">
                           Pricing Table
-                        </a>
+                        </Link>
                       </li>
 
                       <li className="nav-item">
-                        <a href="Testimonials" className="nav-link">
+                        <Link to="Testimonials" className="nav-link">
                           Testimonials
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="nav-item">
-                    <a href="Contact" className="nav-link">
+                    <Link to="Contact" className="nav-link">
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </nav>
             <div className="mobile-bar-wrap">
               <div className="mobile-menu d-lg-none">
-                <a href="">
+                <Link to="">
                   <i className="ri-menu-line"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

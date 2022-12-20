@@ -1,5 +1,6 @@
 import React from 'react'
 import OwlCarousel from 'react-owl-carousel2';
+import { Link } from 'react-router-dom';
 
 
 
@@ -45,21 +46,21 @@ export default function Home() {
             the reale he point of using Lorem Ipsum is that it has a
             more-or-less normal valid equity.
           </p>
-          <a
-            href="project.html"
+          <Link to="Project"
             className="btn style1"
+            style={{color: "white"}}
             data-aos="fade-up"
             data-aos-duration={1200}
             data-aos-delay={500}
           >
             SEE MY ALL WORK
-          </a>
+          </Link>
         </div>
       </div>
     </div>
-    <a href="#project-area" className="scroll-to-section bounce">
+    <Link to="#project-area" className="scroll-to-section bounce">
       <i className="flaticon-down-arrow" />
-    </a>
+    </Link>
   </div>
 </section>
 
@@ -83,52 +84,52 @@ export default function Home() {
         <img src="assets/img/new/03.jpg" alt="Image" />
         <div className="project-info">
           <h3>
-            <a href="project-details.html">Amelia &amp; Oliver</a>
+            <Link to="project-details.html">Amelia &amp; Oliver</Link>
           </h3>
-          <a href="project.html" className="project-cat">
+          <Link to="project.html" className="project-cat">
             Wedding
-          </a>
+          </Link>
         </div>
       </div>
       <div className="project-card style2">
         <img src="assets/img/new/10.jpg" alt="Image" />
         <div className="project-info">
           <h3>
-            <a href="project-details.html">Dsuza &amp; Alice</a>
+            <Link to="project-details.html">Dsuza &amp; Alice</Link>
           </h3>
-          <a href="project.html" className="project-cat">
+          <Link to="project.html" className="project-cat">
             Wedding
-          </a>
+          </Link>
         </div>
       </div>
       <div className="project-card style2">
         <img src="assets/img/new/11.jpg" alt="Image" />
         <div className="project-info">
           <h3>
-            <a href="project-details.html">Jhon &amp; Malinda</a>
+            <Link to="project-details.html">Jhon &amp; Malinda</Link>
           </h3>
-          <a href="project.html" className="project-cat">
+          <Link to="project.html" className="project-cat">
             Couple Event
-          </a>
+          </Link>
         </div>
       </div>
       <div className="project-card style2">
         <img src="assets/img/new/06.jpg" alt="Image" />
         <div className="project-info">
           <h3>
-            <a href="project-details.html">Roman &amp; Alisa</a>
+            <Link to="project-details.html">Roman &amp; Alisa</Link>
           </h3>
-          <a href="project.html" className="project-cat">
+          <Link to="project.html" className="project-cat">
             Wedding
-          </a>
+          </Link>
         </div>
       </div>
       
 </OwlCarousel>
     <div className="text-center mt-20">
-      <a href="Projects" className="btn style3">
+      <Link to="Projects" className="btn style3">
         SEE ALL PROJECTS
-      </a>
+      </Link>
     </div>
   </div>
 </section>
@@ -149,9 +150,9 @@ export default function Home() {
               incidunt sequi iure tempora accusamus aliquid natus.
             </p>
           </div>
-          <a href="About" className="btn style1">
+          <Link to="About" className="btn style1" style={{color: "white"}}>
             WORK WITH ME
-          </a>
+          </Link>
         </div>
       </div>
       <div className="col-xl-5 col-lg-6 order-xl-2 order-lg-2 order-md-1 order-1">
@@ -236,9 +237,9 @@ export default function Home() {
                 adipisci elitsus pendisse varius.
               </p>
             </div>
-            <a href="contact.html" className="btn style1">
+            <Link to="contact.html" className="btn style1" style={{color: "white"}}>
               CONTACT ME
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -281,9 +282,9 @@ export default function Home() {
                 <i className="ri-check-fill" />1 Photographer
               </li>
             </ul>
-            <a href="login.html" className="btn style2">
+            <Link to="login.html" className="btn style2">
               PURCHASE NOW
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-xl-4 col-lg-6 col-md-6">
@@ -308,9 +309,9 @@ export default function Home() {
                 <i className="ri-check-fill" />2 Photographer
               </li>
             </ul>
-            <a href="login.html" className="btn style2">
+            <Link to="login.html" className="btn style2">
               PURCHASE NOW
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-xl-4 col-lg-6 col-md-6">
@@ -335,9 +336,9 @@ export default function Home() {
                 <i className="ri-check-fill" />4 Photographer
               </li>
             </ul>
-            <a href="login.html" className="btn style2">
+            <Link to="login.html" className="btn style2">
               PURCHASE NOW
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -486,7 +487,7 @@ export default function Home() {
             <h2>Still, Have A Questions?</h2>
             <p>
               Would you like to discuss a project? Email me, fill out the form,
-              or call me at <a href="tel:22202345643">(222)-0234-5643</a>
+              or call me at <Link to="tel:22202345643">(222)-0234-5643</=>
             </p>
           </div>
         </div>
@@ -571,23 +572,23 @@ export default function Home() {
           <div className="blog-card style2">
             <div className="blog-img">
               <img src="assets/img/blog/blog-1.jpg" alt="Image" />
-              <a href="posts-by-date.html" className="blog-date">
+              <Link to="posts-by-date.html" className="blog-date">
                 May 22, 2022
-              </a>
+              </=>
             </div>
             <div className="blog-info">
               <h3>
-                <a href="blog-details-right-sidebar.html">
+                <Link to="blog-details-right-sidebar.html">
                   8 Key Differences You Need To Know Before Buying Camera
-                </a>
+                </=>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur dipiscing elit sed do
                 eiusm tempor incididunt ut labore
               </p>
-              <a href="blog-details-right-sidebar.html" className="link style1">
+              <Link to="blog-details-right-sidebar.html" className="link style1">
                 READ MORE
-              </a>
+              </=>
             </div>
           </div>
         </div>
@@ -595,23 +596,23 @@ export default function Home() {
           <div className="blog-card style2">
             <div className="blog-img">
               <img src="assets/img/blog/blog-2.jpg" alt="Image" />
-              <a href="posts-by-date.html" className="blog-date">
+              <Link to="posts-by-date.html" className="blog-date">
                 May 15, 2022
-              </a>
+              </=>
             </div>
             <div className="blog-info">
               <h3>
-                <a href="blog-details-right-sidebar.html">
+                <Link to="blog-details-right-sidebar.html">
                   The Blushing Bride With A Bouquet On Hand Photography
-                </a>
+                </=>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur dipiscing elit sed do
                 eiusm tempor incididunt ut labore
               </p>
-              <a href="blog-details-right-sidebar.html" className="link style1">
+              <Link to="blog-details-right-sidebar.html" className="link style1">
                 READ MORE
-              </a>
+              </=>
             </div>
           </div>
         </div>
@@ -619,23 +620,23 @@ export default function Home() {
           <div className="blog-card style2">
             <div className="blog-img">
               <img src="assets/img/blog/blog-3.jpg" alt="Image" />
-              <a href="posts-by-date.html" className="blog-date">
+              <Link to="posts-by-date.html" className="blog-date">
                 Apr 19, 2022
-              </a>
+              </=>
             </div>
             <div className="blog-info">
               <h3>
-                <a href="blog-details-right-sidebar.html">
+                <Link to="blog-details-right-sidebar.html">
                   Creating Polarization Effect In DJI Drone Photography
-                </a>
+                </=>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur dipiscing elit sed do
                 eiusm tempor incididunt ut labore
               </p>
-              <a href="blog-details-right-sidebar.html" className="link style1">
+              <Link to="blog-details-right-sidebar.html" className="link style1">
                 READ MORE
-              </a>
+              </=>
             </div>
           </div>
         </div>
