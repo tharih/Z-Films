@@ -53,9 +53,9 @@ export default function Header() {
                 </div>
                 <ul className="navbar-nav mx-auto">
                   <li className="nav-item">
-                    <Link to="Home" className="nav-link active">
+                    <a href="Home" className="nav-link active">
                       Home
-                    </Link>
+                    </a>
                   </li>
                   <li className="nav-item">
                     <Link to="About" className="nav-link">

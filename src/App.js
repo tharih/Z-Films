@@ -19,13 +19,13 @@ function App() {
         <Header />
         {/* <Player /> */}
         <Routes>
-          <Route path="/Home" exact element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/About" exact element={<About />} />
-          <Route path="Services" exact element={<Services />} />
-          <Route path="Projects" exact element={<Projects />} />
-          <Route path="Team" exact element={<Team />} />
-          <Route path="Price" exact element={<Price />} />
-          <Route path="Testimonials" exact element={<Testimonials />} />
+          <Route path="/Services" exact element={<Services />} />
+          <Route path="/Projects" exact element={<Projects />} />
+          <Route path="/Team" exact element={<Team />} />
+          <Route path="/Price" exact element={<Price />} />
+          <Route path="/Testimonials" exact element={<Testimonials />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
