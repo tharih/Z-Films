@@ -177,7 +177,7 @@ export default function Contact() {
                     </div>
                   </div>
                   <div className="col-md-12">
-                    <button type="submit" className="btn style1 w-100 d-block">
+                    <button type="submit" className="btn style1 w-100 d-block"  style={{color: "white"}}>
                       SEND MESSAGE
                     </button>
                     <div id="msgSubmit" className="h3 text-center hidden" />

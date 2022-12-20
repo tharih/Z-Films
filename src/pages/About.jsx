@@ -3,16 +3,16 @@ import React from "react";
 
 export default function About() {
   return (
-    <div class="page-wrapper">
-      <div className="content-wrapper">
-        <div className="breadcrumb-wrap">
+    <div class="page-wrapper ">
+      <div className="content-wrapper ">
+        <div className="breadcrumb-wrap ">
           <img
             src="assets/img/breadcrumb/br-shape.png"
             alt="Image"
             className="br-shape"
           />
-          <div className="container">
-            <div className="row align-items-center">
+          <div className="container  ">
+            <div className="row align-items-center ">
               <div className="col-sm-6">
                 <div className="breadcrumb-title">
                   <h2>About Us</h2>

@@ -155,7 +155,7 @@ export default function Services() {
             </div>
           </div>
           <div className="text-center mt-15">
-            <a href="service-two.html" className="btn style1">
+            <a href="service-two.html" className="btn style1"  style={{color: "white"}}>
               LOAD MORE
             </a>
           </div>

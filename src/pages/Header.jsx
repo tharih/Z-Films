@@ -30,12 +30,14 @@ export default function Header() {
         </label>
     </div> */}
 
-      <div className="page-wrapper">
+      <div className="page-wrapper" >
         <header
-          className={fixed ? "header-wrap style2 sticky" : "header-wrap style2"}
+          className={fixed ? "header-wrap style2 sticky" : "header-wrap style2" }
+          
         >
           <div className="container">
-            <nav className="navbar navbar-expand-md navbar-light">
+             
+            <nav className="navbar navbar-expand-md navbar-light"  >
               <a className="navbar-brand" href="index.html">
                 <img src="assets/img/1.png" alt="logo" />
               </a>
@@ -61,7 +63,7 @@ export default function Header() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to=" Services" className="nav-link">
+                    <Link to="Services" className="nav-link">
                       Services
                     </Link>
                   </li>
@@ -106,7 +108,7 @@ export default function Header() {
             </nav>
             <div className="mobile-bar-wrap">
               <div className="mobile-menu d-lg-none">
-                <Link to="">
+                <Link to="javascript:void(0)">
                   <i className="ri-menu-line"></i>
                 </Link>
               </div>
@@ -114,6 +116,9 @@ export default function Header() {
           </div>
         </header>
       </div>
+
     </div>
   );
 }
+
+
