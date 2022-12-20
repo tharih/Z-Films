@@ -2,6 +2,10 @@
           Mixins & Animation CSS
 -----------------------------------*/
 @media only screen and (max-width: 575px) {
+
+  .loader{
+    display: none;
+  }
   .xs-center {
     text-align: center;
   }
@@ -46,6 +50,9 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  .loader{
+    display: none;
+  }
   .container-fluid {
     max-width: 540px;
     padding: 0 15px;
@@ -906,6 +913,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .loader{
+    display: none;
+  }
   .section-title h2,
   .content-title h2 {
     line-height: 1.4;
@@ -913,6 +923,9 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .loader{
+    display: none;
+  }
   .container-fluid {
     max-width: 720px;
     padding-left: 15px;
@@ -1075,6 +1088,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+  
+  .loader{
+    display: none;
+  }
   .page-wrapper {
     overflow-x: hidden !important;
   }

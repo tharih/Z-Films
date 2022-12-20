@@ -19,9 +19,9 @@ export default function Header() {
 
   return (
     <div>
-      {/* <div className="loader js-preloader">
+      <div className="loader js-preloader">
         <img src="assets/img/preloader.gif" alt="Image" />
-      </div> */}
+      </div>
 
       {/* <div className="switch-theme-mode">
         <label id="switch" className="switch">
