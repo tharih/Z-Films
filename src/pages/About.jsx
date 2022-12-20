@@ -185,9 +185,9 @@ export default function About() {
                       sunt ab doloremque officiis minima!
                     </p>
                   </div>
-                  <a href="contact.html" className="btn style1">
-                    Contact Us
-                  </a>
+                  <a href="service-two.html" className="btn style1"  style={{color: "white"}}>
+              LOAD MORE
+            </a>
                 </div>
               </div>
             </div>
