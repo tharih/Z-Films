@@ -38,9 +38,9 @@ export default function Header() {
           <div className="container">
              
             <nav className="navbar navbar-expand-md navbar-light"  >
-              <a className="navbar-brand" href="index.html">
+              <Link to="Home" className="navbar-brand" >
                 <img src="assets/img/1.png" alt="logo" />
-              </a>
+              </Link>
               <div
                 className="collapse navbar-collapse main-menu-wrap"
                 id="navbarSupportedContent"
