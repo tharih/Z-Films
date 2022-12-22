@@ -85,16 +85,13 @@
   });
 
   //Hero  Slider
+
   $(".hero-slider-one").owlCarousel({
     nav: true,
-    dots: false,
     loop: true,
     margin: 20,
     items: 1,
-    navText: [
-      '<i class="flaticon-left-arrow"></i>',
-      '<i class="flaticon-right-arrow"></i>',
-    ],
+    navText: ["<", ">"],
     thumbs: false,
     smartSpeed: 1300,
     autoplay: false,
@@ -107,17 +104,12 @@
   //Project Slider
   $(".project-slider-one").owlCarousel({
     nav: true,
-    dots: false,
     loop: true,
-    navText: [
-      '<i class="flaticon-left-arrow"></i>',
-      '<i class="flaticon-right-arrow-1"></i>',
-    ],
+    navText: ["<", ">"],
     margin: 25,
     items: 1,
-    thumbs: false,
     smartSpeed: 1300,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout: 4000,
     autoplayHoverPause: false,
     responsiveClass: true,
@@ -311,12 +303,12 @@
       $(".navbar-collapse").addClass("collapse");
     }
   });
-  $(".mobile-menu a").on("click", function () {
+  $(".mobile-menu .navOpen").on("click", function () {
     $(".main-menu-wrap").addClass("open");
     $(".collapse.navbar-collapse").removeClass("collapse");
   });
 
-  $(".mobile_menu a").on("click", function () {
+  $(".mobile_menu .navOpen").on("click", function () {
     $(this).parent().toggleClass("open");
     $(".main-menu-wrap").toggleClass("open");
   });
@@ -408,12 +400,12 @@ function toggleTheme() {
 }
 
 // Immediately invoked function to set the theme on initial load
-(function () {
-  if (localStorage.getItem("povi_theme") === "theme-dark") {
-    setTheme("theme-dark");
-    document.getElementById("slider").checked = false;
-  } else {
-    setTheme("theme-light");
-    document.getElementById("slider").checked = true;
-  }
-})();
+// (function () {
+//   if (localStorage.getItem("povi_theme") === "theme-dark") {
+//     setTheme("theme-dark");
+//     document.getElementById("slider").checked = false;
+//   } else {
+//     setTheme("theme-light");
+//     document.getElementById("slider").checked = true;
+//   }
+// })();

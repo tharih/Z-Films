@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   const [fixed, setFixed] = useState(false);
+  const [openClass, setOpenClass] = useState(false);
 
   const setFix = () => {
     if (window.scrollY > 100) {
@@ -17,6 +18,19 @@ export default function Header() {
     return () => window.removeEventListener("scroll", setFix);
   }, []);
 
+  const handleOpenMenu = () => {
+    setOpenClass((prev) => !prev);
+  };
+
+  const handleOpen = () => {
+    document
+      .getElementsByClassName("mobile-menu .navOpen")
+      .addEventListener("click", () => {
+        const element = document.getElementsByClassName(".main-menu-wrap");
+        element.classList.add("open");
+      });
+  };
+
   return (
     <div>
       <div className="loader js-preloader">
@@ -30,19 +44,17 @@ export default function Header() {
         </label>
     </div> */}
 
-      <div className="page-wrapper" >
+      <div className="page-wrapper">
         <header
-          className={fixed ? "header-wrap style2 sticky" : "header-wrap style2" }
-          
+          className={fixed ? "header-wrap style2 sticky" : "header-wrap style2"}
         >
           <div className="container">
-             
-            <nav className="navbar navbar-expand-md navbar-light"  >
+            <nav className="navbar navbar-expand-md navbar-light">
               <a className="navbar-brand" href="index.html">
                 <img src="assets/img/1.png" alt="logo" />
               </a>
               <div
-                className="collapse navbar-collapse main-menu-wrap"
+                className={"navbar-collapse main-menu-wrap"}
                 id="navbarSupportedContent"
               >
                 <div className="menu-close d-lg-none">
@@ -108,7 +120,7 @@ export default function Header() {
             </nav>
             <div className="mobile-bar-wrap">
               <div className="mobile-menu d-lg-none">
-                <Link to="javascript:void(0)">
+                <Link className="navOpen" to="" onClick={handleOpenMenu}>
                   <i className="ri-menu-line"></i>
                 </Link>
               </div>
@@ -116,9 +128,6 @@ export default function Header() {
           </div>
         </header>
       </div>
-
     </div>
   );
 }
-
-
