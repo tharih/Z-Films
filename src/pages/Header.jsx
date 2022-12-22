@@ -49,7 +49,8 @@ export default function Header() {
           className={fixed ? "header-wrap style2 sticky" : "header-wrap style2"}
         >
           <div className="container">
-            <nav className="navbar navbar-expand-md navbar-light">
+             
+            <nav className="navbar navbar-expand-md navbar-light"  >
               <a className="navbar-brand" href="index.html">
                 <img src="assets/img/1.png" alt="logo" />
               </a>
