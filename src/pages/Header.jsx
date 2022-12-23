@@ -51,7 +51,7 @@ export default function Header() {
           <div className="container">
              
             <nav className="navbar navbar-expand-md navbar-light"  >
-              <Link className="navbar-brand" to="Home">
+              <Link className="navbar-brand" to="/">
                 <img src="assets/img/1.png" alt="logo" />
               </Link>
               <div
