@@ -59,10 +59,10 @@ export default function Header() {
                 id="navbarSupportedContent"
               >
                 <div className="menu-close d-lg-none">
-                  <Link to="">
+                  <div >
                     {" "}
                     <i className="ri-close-line"></i>
-                  </Link>
+                  </div>
                 </div>
                 <ul className="navbar-nav mx-auto">
                   <li className="nav-item">
