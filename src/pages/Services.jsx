@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
@@ -16,7 +17,7 @@ export default function Services() {
                 <h2>Services</h2>
                 <ul className="breadcrumb-menu list-style">
                   <li>
-                    <a href="index.html">Home </a>
+                    <Link to="Home">Home </Link>
                   </li>
                   <li>Services</li>
                 </ul>
@@ -40,11 +41,11 @@ export default function Services() {
                 </div>
                 <div className="service-info">
                   <h3>
-                    <a href="service-details.html">Woman Portrait</a>
+                    <Link to="/ServiceDetails">Woman Portrait</Link>
                   </h3>
-                  <a href="service-details.html" className="link style1">
+                  <Link to="/ServiceDetails" className="link style1">
                     VIEW MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -55,11 +56,11 @@ export default function Services() {
                 </div>
                 <div className="service-info">
                   <h3>
-                    <a href="service-details.html">Children Portrait</a>
+                    <Link to="/ServiceDetails">Children Portrait</Link>
                   </h3>
-                  <a href="service-details.html" className="link style1">
+                  <Link to="/ServiceDetails" className="link style1">
                     VIEW MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -70,11 +71,11 @@ export default function Services() {
                 </div>
                 <div className="service-info">
                   <h3>
-                    <a href="service-details.html">Man Portrait</a>
+                    <Link to="/ServiceDetails">Man Portrait</Link>
                   </h3>
-                  <a href="service-details.html" className="link style1">
+                  <Link to="/ServiceDetails" className="link style1">
                     VIEW MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -85,11 +86,11 @@ export default function Services() {
                 </div>
                 <div className="service-info">
                   <h3>
-                    <a href="service-details.html">Couple Moment</a>
+                    <Link to="/ServiceDetails">Couple Moment</Link>
                   </h3>
-                  <a href="service-details.html" className="link style1">
+                  <Link to="/ServiceDetails" className="link style1">
                     VIEW MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -100,11 +101,11 @@ export default function Services() {
                 </div>
                 <div className="service-info">
                   <h3>
-                    <a href="service-details.html">Film &amp; Production</a>
+                    <Link to="/ServiceDetails">Film &amp; Production</Link>
                   </h3>
-                  <a href="service-details.html" className="link style1">
+                  <Link to="/ServiceDetails" className="link style1">
                     VIEW MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -115,11 +116,11 @@ export default function Services() {
                 </div>
                 <div className="service-info">
                   <h3>
-                    <a href="service-details.html">Studio Sessions</a>
+                    <Link to="/ServiceDetails">Studio Sessions</Link>
                   </h3>
-                  <a href="service-details.html" className="link style1">
+                  <Link to="/ServiceDetails" className="link style1">
                     VIEW MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -130,11 +131,11 @@ export default function Services() {
                 </div>
                 <div className="service-info">
                   <h3>
-                    <a href="service-details.html">Retouch Photo</a>
+                    <Link to="/ServiceDetails">Retouch Photo</Link>
                   </h3>
-                  <a href="service-details.html" className="link style1">
+                  <Link to="/ServiceDetails" className="link style1">
                     VIEW MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -145,19 +146,19 @@ export default function Services() {
                 </div>
                 <div className="service-info">
                   <h3>
-                    <a href="service-details.html">Couple Moment</a>
+                    <Link to="/ServiceDetails">Couple Moment</Link>
                   </h3>
-                  <a href="service-details.html" className="link style1">
+                  <Link to="/ServiceDetails" className="link style1">
                     VIEW MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
           <div className="text-center mt-15">
-            <a href="service-two.html" className="btn style1"  style={{color: "white"}}>
+            <Link to="service-two.html" className="btn style1"  style={{color: "white"}}>
               LOAD MORE
-            </a>
+            </Link>
           </div>
         </div>
       </section>

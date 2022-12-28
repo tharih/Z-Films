@@ -14,6 +14,7 @@ import ProjectDetails from "./pages/ProjectDetails";
 import $ from "jquery";
 // import "jquery-ui-dist/jquery-ui";
 import { useEffect } from "react";
+import ServiceDetails from "./pages/ServiceDetails";
 
 function App() {
   useEffect(() => {
@@ -60,6 +61,7 @@ function App() {
           <Route path="/Testimonials" exact element={<Testimonials />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/ProjectDetails" element={<ProjectDetails />} />
+          <Route path="/ServiceDetails" element={<ServiceDetails />} />
         </Routes>
         <Footer />
       </Router>

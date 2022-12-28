@@ -96,28 +96,28 @@ export default function Footer() {
                 <h3 className="footer-widget-title">Follow Instagram</h3>
                 <div className="insta-gallery">
                   <a
-                    href="assets/img/instagram/insta-1.jpg"
+                    href="assets/img/new/07.jpg"
                     data-fancybox="gallery"
                     data-caption="Instagram Gallery"
                   >
                     <img src="assets/img/new/07.jpg" alt="Image" />
                   </a>
                   <a
-                    href="assets/img/instagram/insta-2.jpg"
+                    href="assets/img/new/08.jpg"
                     data-fancybox="gallery"
                     data-caption="Instagram Gallery"
                   >
                     <img src="assets/img/new/08.jpg" alt="Image" />
                   </a>
                   <a
-                    href="assets/img/instagram/insta-3.jpg"
+                    href="assets/img/new/01.jpg"
                     data-fancybox="gallery"
                     data-caption="Instagram Gallery"
                   >
                     <img src="assets/img/new/01.jpg" alt="Image" />
                   </a>
                   <a
-                    href="assets/img/instagram/insta-4.jpg"
+                    href="assets/img/new/10.jpg"
                     data-fancybox="gallery"
                     data-caption="Instagram Gallery"
                   >
