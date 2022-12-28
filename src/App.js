@@ -12,7 +12,7 @@ import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
 import ProjectDetails from "./pages/ProjectDetails";
 import $ from "jquery";
-import "jquery-ui-dist/jquery-ui";
+// import "jquery-ui-dist/jquery-ui";
 import { useEffect } from "react";
 
 function App() {

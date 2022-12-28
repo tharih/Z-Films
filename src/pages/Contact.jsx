@@ -39,16 +39,18 @@ export default function Contact() {
                   <span>CONTACT US</span>
                   <h2>Get In Touch With Us</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Suscipit tempore facilis pariatur nulla natus illo contrary
-                    to popular belief, Lorem Ipsum is not simply random text.
+                    please feel free to reach out through our contact form or
+                    send us an email at zfilms2020@gmail.com. We look forward to
+                    hearing from you and discussing how we can help bring your
+                    vision to life. Thank you for considering us for your
+                    project.
                   </p>
                 </div>
                 <ul className="contact-info list-style">
                   <li>
                     <i className="ri-map-pin-fill" />
                     <p>
-                    98/5 Artigala Mawatha, 
+                      98/5 Artigala Mawatha,
                       <br /> Piliyandala 10300
                     </p>
                   </li>
@@ -64,7 +66,7 @@ export default function Contact() {
                         className="__cf_email__"
                         data-cfemail="f9919c959596b989968f90d79a9694"
                       >
-                       suvinjavax@gmail.com
+                        suvinjavax@gmail.com
                       </span>
                     </a>
                     {/* <a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#05767075756a777145756a736c2b666a68">
@@ -177,7 +179,11 @@ export default function Contact() {
                     </div>
                   </div>
                   <div className="col-md-12">
-                    <button type="submit" className="btn style1 w-100 d-block"  style={{color: "white"}}>
+                    <button
+                      type="submit"
+                      className="btn style1 w-100 d-block"
+                      style={{ color: "white" }}
+                    >
                       SEND MESSAGE
                     </button>
                     <div id="msgSubmit" className="h3 text-center hidden" />

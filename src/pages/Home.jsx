@@ -3,7 +3,7 @@ import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import { Link } from "react-router-dom";
 import $ from "jquery";
-import "jquery-ui-dist/jquery-ui";
+// import "jquery-ui-dist/jquery-ui";
 export default function Home() {
   const options = {
     items: 3,
@@ -90,11 +90,7 @@ export default function Home() {
             <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
               <div className="section-title style2 text-center mb-50">
                 <h2>Browse My Latest Work</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nesciunt minus perferendis repellat facilis numquam rem iure
-                  quaerat pariatur.
-                </p>
+                <p>Capturing the beauty and emotion of your special moments</p>
               </div>
             </div>
           </div>
@@ -162,10 +158,12 @@ export default function Home() {
                 <div className="content-title style2 text-center">
                   <h2>Read About My Journey</h2>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit
-                    iendis labore pariatur alias est repudiandae expedita, aut
-                    veritatis incidunt sequi iure tempora accusamus aliquid
-                    natus.
+                    Hi, my name is Suvin Chandula and I am a professional
+                    cinematographer and photographer. My journey in this field
+                    began many years ago when I first discovered my love for
+                    visual storytelling. I was always drawn to the art of
+                    capturing moments and telling stories through images, and I
+                    knew that this was the path I wanted to pursue.
                   </p>
                 </div>
                 <Link
@@ -193,9 +191,8 @@ export default function Home() {
               <div className="section-title style2 text-center mb-50">
                 <h2>Colaboration With</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nesciunt minus perferendis repellat facilis numquam rem iure
-                  quaerat pariatur.
+                  Expertly crafted cinematography and photography for every
+                  occasion
                 </p>
               </div>
             </div>
@@ -252,10 +249,18 @@ export default function Home() {
                 <div className="content-title">
                   <h2>Need Help With Professional Photographer?</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, conse ctetur adipi scing elitsus
-                    pendisse eleme variusen eros eleme cons ectetur ntum
-                    tristique. Duis cursus, mi quis viverra orn Lorem ipsum
-                    amet, consecte adipisci elitsus pendisse varius.
+                    If you need help with professional photography services,
+                    look no further. Z Films is here to assist you. Our team of
+                    skilled photographers has years of experience in a variety
+                    of settings and can handle any project, big or small.
+                    Whether you need portraits, event coverage, product
+                    photography, or anything in between, we have the expertise
+                    and equipment to deliver high-quality results that meet your
+                    needs. We pride ourselves on our professionalism and
+                    attention to detail, and we are dedicated to providing
+                    excellent customer service. Don't hesitate to reach out – we
+                    would love to help you with your professional photography
+                    needs. Contact us today to learn more and get started.
                   </p>
                 </div>
                 <Link
@@ -393,10 +398,10 @@ export default function Home() {
               <div className="row gx-5 align-items-end">
                 <div className="col-lg-6 order-lg-1 order-md-2 order-2">
                   <p className="client-quote">
-                    There are many variation of passage of Lorem Ipsum
-                    available, but the major have suffered alteration in some
-                    form, injected humour random words which don't look even
-                    slightly believable. If you are going.
+                    "The team at the videography and photography studio did an
+                    excellent job capturing the memories of our special day.
+                    They were professional, friendly, and flexible, and the
+                    final product exceeded our expectations."
                   </p>
                   <div className="client-info-wrap">
                     <div className="client-img">
@@ -428,10 +433,11 @@ export default function Home() {
               <div className="row gx-5 align-items-end">
                 <div className="col-lg-6 order-lg-1 order-md-2 order-2">
                   <p className="client-quote">
-                    There are many variation of passage of Lorem Ipsum
-                    available, but the major have suffered alteration in some
-                    form, injected humour random words which don't look even
-                    slightly believable. If you are going.
+                    "We were so impressed with the level of creativity and
+                    attention to detail shown by the videography and photography
+                    studio. They truly captured the essence of our event and
+                    produced stunning visual memories for us to cherish
+                    forever."
                   </p>
                   <div className="client-info-wrap">
                     <div className="client-img">
@@ -463,10 +469,10 @@ export default function Home() {
               <div className="row gx-5 align-items-end">
                 <div className="col-lg-6 order-lg-1 order-md-2 order-2">
                   <p className="client-quote">
-                    There are many variation of passage of Lorem Ipsum
-                    available, but the major have suffered alteration in some
-                    form, injected humour random words which don't look even
-                    slightly believable. If you are going.
+                    "The videography and photography studio was a pleasure to
+                    work with from start to finish. They were responsive,
+                    helpful, and went above and beyond to ensure that we were
+                    happy with the final product."
                   </p>
                   <div className="client-info-wrap">
                     <div className="client-img">

@@ -53,29 +53,44 @@ export default function About() {
                     <span>ABOUT US</span>
                     <h2>We're The Leading Photo Studio In The Country</h2>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Suspendisse varius en in eros eleme ntum tristique. Duis
-                      cursus, mi quis viverra
+                      At Z Films, we are proud to be the leading photo studio in
+                      the country. We have a team of highly skilled and
+                      experienced photographers who are experts in their craft,
+                      using state-of-the-art equipment and technology to produce
+                      high-quality images that are second to none. We have a
+                      track record of consistently delivering excellent results
+                      for our clients and offer a wide range of services and
+                      packages to meet the needs of all types of clients, from
+                      individuals to businesses.
                     </p>
                     <p>
-                      Best Strategic planning dolor sit amet consectetur
-                      adipiscing elit. Scel erus isque ametus odio velit auctor
-                      nam elit nulla eget sodales dui pulvinar dolor strategic
-                      planning dolor sit sectetur.
+                      Our strong reputation in the industry and the trust of our
+                      clients across the country speak to our commitment to
+                      delivering the best possible experience for our clients.
+                      We are constantly striving to improve and evolve our
+                      services, ensuring that we remain at the forefront of the
+                      industry. Our extensive portfolio of work showcases the
+                      range and quality of our services, and our passion for
+                      what we do is evident in every project we take on. If you
+                      want the best for your photo needs, choose [Z-Films] – the
+                      leading photo studio in the country.
                     </p>
                   </div>
                   <ul className="content-feature-list list-style">
                     <li>
                       <i className="ri-checkbox-circle-fill" />
-                      Lorem ipsum is not simply random text
+                      We have a team of highly skilled and experienced
+                      photographers who are experts in their craft.
                     </li>
                     <li>
                       <i className="ri-checkbox-circle-fill" />
-                      Making this the first true generator on the internet
+                      We use state-of-the-art equipment and technology to
+                      produce high-quality images that are second to none.
                     </li>
                     <li>
                       <i className="ri-checkbox-circle-fill" />
-                      various version have evolved these years
+                      We have a track record of consistently delivering
+                      excellent results for our clients.
                     </li>
                   </ul>
                 </div>
@@ -180,14 +195,28 @@ export default function About() {
                   <div className="content-title">
                     <h2>Need Help Let's Work Together</h2>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Digni assimos odit quib usdam quis maiores, ipsa ullam
-                      sunt ab doloremque officiis minima!
+                      If you need help with professional photography services,
+                      look no further. Z Films is here to assist you. Our team
+                      of skilled photographers has years of experience in a
+                      variety of settings and can handle any project, big or
+                      small. Whether you need portraits, event coverage, product
+                      photography, or anything in between, we have the expertise
+                      and equipment to deliver high-quality results that meet
+                      your needs. We pride ourselves on our professionalism and
+                      attention to detail, and we are dedicated to providing
+                      excellent customer service. Don't hesitate to reach out –
+                      we would love to help you with your professional
+                      photography needs. Contact us today to learn more and get
+                      started.
                     </p>
                   </div>
-                  <a href="Contact" className="btn style1"  style={{color: "white"}}>
-              Contact Us
-            </a>
+                  <a
+                    href="Contact"
+                    className="btn style1"
+                    style={{ color: "white" }}
+                  >
+                    Contact Us
+                  </a>
                 </div>
               </div>
             </div>
@@ -229,12 +258,11 @@ export default function About() {
                         </div>
                       </div>
                       <p className="client-quote">
-                        There are many variation of passage of Lorem Ipsum
-                        available, but the major have suffered alteration in
-                        some form, injected humour randomised words which don't
-                        look Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit assumenda velit. Repellat, perferendis? Laborum
-                        repellat dorem ipsum dolor sit amet.
+                        "We were blown away by the quality of the photos and
+                        videos taken by the videography and photography studio.
+                        They captured our personalities and the mood of the
+                        event perfectly, and we will treasure these memories
+                        forever."
                       </p>
                     </div>
                   </div>
@@ -265,12 +293,11 @@ export default function About() {
                         </div>
                       </div>
                       <p className="client-quote">
-                        There are many variation of passage of Lorem Ipsum
-                        available, but the major have suffered alteration in
-                        some form, injected humour randomised words which don't
-                        look Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit assumenda velit. Repellat, perferendis? Laborum
-                        repellat dorem ipsum dolor sit amet.
+                        "The videography and photography studio was a vital
+                        part of our event and we are so grateful to have such
+                        beautiful, professional-quality photos and videos to
+                        look back on. We highly recommend them to anyone in need
+                        of top-notch videography and photography services."
                       </p>
                     </div>
                   </div>
@@ -301,12 +328,10 @@ export default function About() {
                         </div>
                       </div>
                       <p className="client-quote">
-                        There are many variation of passage of Lorem Ipsum
-                        available, but the major have suffered alteration in
-                        some form, injected humour randomised words which don't
-                        look Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit assumenda velit. Repellat, perferendis? Laborum
-                        repellat dorem ipsum dolor sit amet.
+                        "We couldn't be happier with the work that Z Films did
+                        for our wedding. The team was professional, creative,
+                        and captured every special moment beautifully. The final
+                        product was exactly what we were hoping for and more."
                       </p>
                     </div>
                   </div>
