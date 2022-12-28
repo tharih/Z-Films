@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import OwlCarousel from "react-owl-carousel2";
 
 export default function ProjectDetails() {
+
+  const options = {
+    items: 3,
+    nav: true,
+    rewind: true,
+    autoplay: true,
+    dots: true,
+    navText: [
+      '<i class="flaticon-left-arrow"></i>',
+      '<i class="flaticon-right-arrow-1"></i>',
+    ],
+  };
+
+  useEffect(() => {}, []);
   return (
     <div>
       <div className="content-wrapper">
@@ -68,28 +82,28 @@ export default function ProjectDetails() {
                     part of their celebration.
                   </p>
 
-                  <OwlCarousel className="single-project-slider owl-carousel">
-                    <div className="single-project-img">
+                  <OwlCarousel options={options} className="single-project-slider owl-carousel">
+                    <div className="project-card style2">
                       <img
-                        src="assets/img/project/single-project-1.jpg"
+                        src="assets/img/new/09.jpg"
                         alt="Image"
                       />
                     </div>
-                    <div className="single-project-img">
+                    <div className="project-card style2">
                       <img
-                        src="assets/img/project/single-project-2.jpg"
+                        src="assets/img/new/03.jpg"
                         alt="Image"
                       />
                     </div>
-                    <div className="single-project-img">
+                    <div className="project-card style2">
                       <img
-                        src="assets/img/project/single-project-3.jpg"
+                        src="assets/img/new/10.jpg"
                         alt="Image"
                       />
                     </div>
-                    <div className="single-project-img">
+                    <div className="project-card style2">
                       <img
-                        src="assets/img/project/single-project-4.jpg"
+                        src="assets/img/new/11.jpg"
                         alt="Image"
                       />
                     </div>

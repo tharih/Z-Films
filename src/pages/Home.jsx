@@ -17,6 +17,18 @@ export default function Home() {
     ],
   };
 
+  const option = {
+    items: 1,
+    nav: true,
+    rewind: true,
+    autoplay: true,
+    dots: true,
+    navText: [
+      '<i class="flaticon-left-arrow"></i>',
+      '<i class="flaticon-right-arrow-1"></i>',
+    ],
+  };
+
   useEffect(() => {}, []);
 
   return (
@@ -381,16 +393,124 @@ export default function Home() {
             <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
               <div className="section-title style2 text-center mb-50">
                 <h2>What Our Customer Says</h2>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Nesciunt minus perferendis repellat facilis numquam rem iure
                   quaerat pariatur.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
-          <div className="testimonial-slider-three">
-            {/* owl-carousel */}
+          <OwlCarousel options={option} className="owlCarousal  owl-carousel">
+           <div
+              className="testimonial-card style2"
+              data-dot="<button>01</button>"
+            >
+              <div className="row gx-5 align-items-end">
+                <div className="col-lg-6 order-lg-1 order-md-2 order-2">
+                  <p className="client-quote">
+                    "The team at the videography and photography studio did an
+                    excellent job capturing the memories of our special day.
+                    They were professional, friendly, and flexible, and the
+                    final product exceeded our expectations."
+                  </p>
+                  <div className="client-info-wrap">
+                    <div className="client-img">
+                      <img
+                        src="assets/img/testimonials/client-1.jpg"
+                        alt="Image"
+                      />
+                    </div>
+                    <div className="client-info">
+                      <h3>Felix Faucheux</h3>
+                      <span>Customer</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 order-lg-2 order-md-1 order-1">
+                  <div className="client-gallery">
+                    <img
+                      src="assets/img/testimonials/testimonial-4.jpg"
+                      alt="Image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="testimonial-card style2"
+              data-dot="<button>02</button>"
+            >
+              <div className="row gx-5 align-items-end">
+                <div className="col-lg-6 order-lg-1 order-md-2 order-2">
+                  <p className="client-quote">
+                    "We were so impressed with the level of creativity and
+                    attention to detail shown by the videography and photography
+                    studio. They truly captured the essence of our event and
+                    produced stunning visual memories for us to cherish
+                    forever."
+                  </p>
+                  <div className="client-info-wrap">
+                    <div className="client-img">
+                      <img
+                        src="assets/img/testimonials/client-2.jpg"
+                        alt="Image"
+                      />
+                    </div>
+                    <div className="client-info">
+                      <h3>Alex Farguson</h3>
+                      <span>Enterprenaur</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 order-lg-2 order-md-1 order-1">
+                  <div className="client-gallery">
+                    <img
+                      src="assets/img/testimonials/testimonial-5.jpg"
+                      alt="Image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="testimonial-card style2"
+              data-dot="<button>03</button>"
+            >
+              <div className="row gx-5 align-items-end">
+                <div className="col-lg-6 order-lg-1 order-md-2 order-2">
+                  <p className="client-quote">
+                    "The videography and photography studio was a pleasure to
+                    work with from start to finish. They were responsive,
+                    helpful, and went above and beyond to ensure that we were
+                    happy with the final product."
+                  </p>
+                  <div className="client-info-wrap">
+                    <div className="client-img">
+                      <img
+                        src="assets/img/testimonials/client-3.jpg"
+                        alt="Image"
+                      />
+                    </div>
+                    <div className="client-info">
+                      <h3>Richard Harison</h3>
+                      <span>Model &amp; Actor</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 order-lg-2 order-md-1 order-1">
+                  <div className="client-gallery">
+                    <img
+                      src="assets/img/testimonials/testimonial-6.jpg"
+                      alt="Image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </OwlCarousel>
+          {/* <div className="testimonial-slider-three">
+            owl-carousel
             <div
               className="testimonial-card style2"
               data-dot="<button>01</button>"
@@ -497,7 +617,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
