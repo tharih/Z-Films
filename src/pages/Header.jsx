@@ -71,17 +71,17 @@ export default function Header() {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <Link to="About" className="nav-link">
+                    <Link to="/About" className="nav-link">
                       About Us
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="Services" className="nav-link">
+                    <Link to="/Services" className="nav-link">
                       Services
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="Projects" className="nav-link">
+                    <Link to="/Projects" className="nav-link">
                       Projects
                     </Link>
                   </li>
@@ -93,18 +93,18 @@ export default function Header() {
                     </Link>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link to="Team" className="nav-link">
+                        <Link to="/Team" className="nav-link">
                           Our Team
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="Price" className="nav-link">
+                        <Link to="/Price" className="nav-link">
                           Pricing Table
                         </Link>
                       </li>
 
                       <li className="nav-item">
-                        <Link to="Testimonials" className="nav-link">
+                        <Link to="/Testimonials" className="nav-link">
                           Testimonials
                         </Link>
                       </li>
@@ -112,7 +112,7 @@ export default function Header() {
                   </li>
 
                   <li className="nav-item">
-                    <Link to="Contact" className="nav-link">
+                    <Link to="/Contact" className="nav-link">
                       Contact Us
                     </Link>
                   </li>
