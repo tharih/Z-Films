@@ -40,8 +40,7 @@ export default function Testimonials() {
               <i className="ri-double-quotes-r" />
             </div>
             <p className="client-quote">
-              Exce pteur sint occ aecat cupid atat non proi dent, sunt invix an
-              natum labitur culpoffi iadese runt mollit anim id est.
+            "The team at the videography and photography studio did an excellent job capturing the memories of our special day. They were professional, friendly, and flexible, and the final product exceeded our expectations."
             </p>
             <div className="client-info">
               <h3>Felix Faucheux</h3>
@@ -55,8 +54,7 @@ export default function Testimonials() {
               <i className="ri-double-quotes-r" />
             </div>
             <p className="client-quote">
-              Exce pteur sint occ aecat cupid atat non proi dent, sunt invix an
-              natum labitur culpoffi iadese runt mollit anim id est.
+            "The team at the videography and photography studio did an excellent job capturing the memories of our special day. They were professional, friendly, and flexible, and the final product exceeded our expectations."
             </p>
             <div className="client-info">
               <h3>Willium Brandy</h3>
@@ -70,8 +68,7 @@ export default function Testimonials() {
               <i className="ri-double-quotes-r" />
             </div>
             <p className="client-quote">
-              Exce pteur sint occ aecat cupid atat non proi dent, sunt invix an
-              natum labitur culpoffi iadese runt mollit anim id est.
+            "The videography and photography studio was a pleasure to work with from start to finish. They were responsive, helpful, and went above and beyond to ensure that we were happy with the final product."
             </p>
             <div className="client-info">
               <h3>Brehan Callham</h3>
@@ -85,8 +82,7 @@ export default function Testimonials() {
               <i className="ri-double-quotes-r" />
             </div>
             <p className="client-quote">
-              Exce pteur sint occ aecat cupid atat non proi dent, sunt invix an
-              natum labitur culpoffi iadese runt mollit anim id est.
+            "We were blown away by the quality of the photos and videos taken by the videography and photography studio. They captured our personalities and the mood of the event perfectly, and we will treasure these memories forever."
             </p>
             <div className="client-info">
               <h3>Chris Gayle</h3>
@@ -100,8 +96,7 @@ export default function Testimonials() {
               <i className="ri-double-quotes-r" />
             </div>
             <p className="client-quote">
-              Exce pteur sint occ aecat cupid atat non proi dent, sunt invix an
-              natum labitur culpoffi iadese runt mollit anim id est.
+            "The videography and photography studio was a vital part of our event and we are so grateful to have such beautiful, professional-quality photos and videos to look back on. We highly recommend them to anyone in need of top-notch videography and photography services."
             </p>
             <div className="client-info">
               <h3>Will Smith</h3>
@@ -115,8 +110,7 @@ export default function Testimonials() {
               <i className="ri-double-quotes-r" />
             </div>
             <p className="client-quote">
-              Exce pteur sint occ aecat cupid atat non proi dent, sunt invix an
-              natum labitur culpoffi iadese runt mollit anim id est.
+            "We couldn't be happier with the work that Z Films did for our wedding. The team was professional, creative, and captured every special moment beautifully. The final product was exactly what we were hoping for and more."
             </p>
             <div className="client-info">
               <h3>Dwane Jhonson</h3>
@@ -130,8 +124,7 @@ export default function Testimonials() {
               <i className="ri-double-quotes-r" />
             </div>
             <p className="client-quote">
-              Exce pteur sint occ aecat cupid atat non proi dent, sunt invix an
-              natum labitur culpoffi iadese runt mollit anim id est.
+            "Z Films exceeded our expectations in every way. The team was responsive and accommodating, and the final product was stunning. We are so grateful to have these beautiful memories captured by such talented professionals."
             </p>
             <div className="client-info">
               <h3>Margaret Lisa</h3>
@@ -145,8 +138,7 @@ export default function Testimonials() {
               <i className="ri-double-quotes-r" />
             </div>
             <p className="client-quote">
-              Exce pteur sint occ aecat cupid atat non proi dent, sunt invix an
-              natum labitur culpoffi iadese runt mollit anim id est.
+            "We had the pleasure of working with Z Films for a corporate event, and they did an amazing job. The team was professional and efficient, and the final product was top-notch. We will definitely be using their services again in the future."
             </p>
             <div className="client-info">
               <h3>Christofer Alen</h3>
@@ -160,8 +152,7 @@ export default function Testimonials() {
               <i className="ri-double-quotes-r" />
             </div>
             <p className="client-quote">
-              Exce pteur sint occ aecat cupid atat non proi dent, sunt invix an
-              natum labitur culpoffi iadese runt mollit anim id est.
+            "We were so impressed with the creativity and attention to detail shown by the team at Z Films. They truly captured the essence of our event and produced stunning visual memories for us to cherish forever."
             </p>
             <div className="client-info">
               <h3>Anjelina Joli</h3>
@@ -169,7 +160,7 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
-      <ul className="page-nav list-style mt-10">
+      {/* <ul className="page-nav list-style mt-10">
         <li>
           <a href="testimonials.html">
             <i className="flaticon-left-arrow" />
@@ -191,7 +182,7 @@ export default function Testimonials() {
             <i className="flaticon-right-arrow-1" />
           </a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   </section>
 </div>

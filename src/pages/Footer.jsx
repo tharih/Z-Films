@@ -59,34 +59,34 @@ export default function Footer() {
                 <h3 className="footer-widget-title">Quick Links</h3>
                 <ul className="footer-menu list-style">
                   <li>
-                    <Link to="Home" target="_blank">
+                    <a href="/" >
                       Home
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to="About" target="_blank">
+                    <a href="/About" >
                       About Us
-                    </Link>
+                    </a>
                   </li>
                   {/* <li>
-                    <a href="blog-left-sidebar.html" target="_blank">
+                    <a href="blog-left-sidebar.html" >
                       News &amp; Blog
                     </a>
                   </li> */}
                   <li>
-                    <Link to="Services" target="_blank">
+                    <a href="/Services" >
                       Our Services
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to="Projects" target="_blank">
+                    <a href="/Projects" >
                       Our Projects
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to="Contact" target="_blank">
+                    <a href="/Contact" >
                       Contact Us
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
